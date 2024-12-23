@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr"> 
+    <link rel="icon" href=
+    "https://cdn-icons-png.flaticon.com/512/633/633832.png" type="image/x-icon">
+    <head> 
+		<meta charset="utf-8">
+		<title>CineWave</title>
+	</head> 
+	<style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+
+        }
+        .btn{
+            position: absolute;
+            top: 65%;
+            left: 10%;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .btn2{
+            position: absolute;
+            top: 1%;
+            left: 90%;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+
+        .BigText{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            width: 30%;
+            font-size: 300%;
+            color: white;
+        }
+
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+        }
+
+
+        .mufasaimg{
+            width: 1850px;
+            height: 1000px;
+        }
+        .moviesection{
+            max-width: 900px;
+            text-transform: uppercase;
+            padding-left: 3%;
+            color: white;
+        }
+        hr.rounded{
+            border-top: 3px solid red;
+            border-radius: 5px;
+        }
+        .movieimg .myimages{
+            height: 400px;
+            width: 250px;
+        }
+        .movieimg .myimages img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .movieimg{
+            float: left;
+            width: 30%;
+            padding: 15px;
+            max-width: max-content;
+            padding-left: 3px;
+        }
+        .moviecontainer::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .moviecontainer{
+            height: max-content;
+            width: max-content;
+        }
+
+
+    </style>
+    <body> 
+		<div class="container"
+        <a bbr="https://uqload.net/si9igkfstd2h.html"><button class="btn">Regarder Maintenant !</button></a>
+        <h1 class="BigText">Mufasa : Le Roi lion</h1>
+        <button class="btn2">Sign Up</button>
+
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a  href="#Movies">Movies</a></li>
+            <li><a  href="#Coming">Coming</a></li>
+            <li><a  href="#About">About</a></li>
+        </ul>
+        <img class ="mufasaimg "src="https://images.alphacoders.com/137/thumb-1920-1372322.jpeg" alt="">
+        <section class="moviesection">
+                <h2>Popular Movies</h2>
+                <hr class="rounded">
+                <div class="moviecontainer" id="movies">         
+
+
+                     <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/si9igkfstd2h.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/1K0Auuwms87L8xLqLSYomuFgWJV.webp" alt="Mufasa : Le Roi Lion"></a>
+                        </div>
+                        <h2>Mufasa : Le Roi Lion</h2>
+                        <span>Dc Comic | Heroes </span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/q8jeqoy7i8uc.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/bZQweCDilXNvF8KuaEHcghM3Nwf.webp" alt="Smile 2"></a>
+                        </div>
+                        <h2>Smile 2</h2>
+                        <span>Horreur</span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/1edape6faw8h.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/glFPd7vNInGmJxsbZO6wQpZX9qz.webp" alt="Kraven the Hunter"></a>
+                        </div>
+                        <h2>Kraven the Hunter</h2>
+                        <span>Fantastique |  Action </span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/rzqtjn0s66ya.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/8OulAqoorQy4X3hI4jNOiFLJYEk.webp" alt="sucidesquad" alt="Vaiana 2"></a>
+                        </div>
+                        <h2>Vaiana 2</h2>
+                        <span>Aventure | Animation</span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/1qa67eyvok3e.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/aSPF68VOCvm3QqcYUkXGmKAfqzs.webp" alt="Wicked"></a>
+                        </div>
+                        <h2>Wicked</h2>
+                        <span> Fantastique | Comédie </span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.ws/ha4hrizj592n.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/1T097noOCt8t66HJZP9R1hg8OHV.webp" alt="Le Robot sauvage"></a>
+                        </div>
+                        <h2>Le Robot sauvage</h2>
+                        <span>Enfants/Aventure</span>
+                    </div>
+                    <div class="movieimg">
+                        <div class="myimages">
+                            <a href="https://uqload.net/s6iqdjkrvuiz.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/mkEYETLHejoG07pg4DMDqMnLKuf.webp" alt=""></a>
+                        </div>
+                        <h2>Jake Paul Mike Tyson</h2>
+                        <span> Action|Évènement </span>
+                </div>
+                <div class="movieimg">
+                    <div class="myimages">
+                        <a href="https://uqload.net/vncax9v9pcj3.html"><img src="file:///C:/Users/bassemmnafeg/Downloads/9nXPerkOpN0O63FKVFMMD3tQq6a.webp" alt="Un Noël sous hypnose"></a>
+                    </div>
+                    <h2>Un Noël sous hypnose</h2>
+                    <span> Animation   </span>
+            </div>
+            <img class ="mufasaimg "src="https://images.alphacoders.com/137/thumb-1920-1372322.jpeg" alt="">
+            <section class="noëlsection">
+                    <h2>noëlsection</h2>
+                    <hr class="rounded">
+                    <div class="moviecontainer" id="movies">         
+    
+
+
+        </div>
+	</body> 
+</html>
